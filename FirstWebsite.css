@@ -53,7 +53,8 @@ body {
     align-items: center;
 }
 
-.siabadaba {
+.discription {
+  background: aquamarine;
   display: flex;
   position: absolute;
   top: 0;
