@@ -63,6 +63,10 @@ body {
   opacity: 0;
   transition: 0.3s;
 }
+.foto2{
+position: relative;
+}
 .foto2:hover .discription {
   opacity: 1;
 }
+
