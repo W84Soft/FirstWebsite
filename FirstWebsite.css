@@ -4,14 +4,14 @@ font-family: 'IBM Plex Mono', monospace;
 font-family: 'Montserrat', sans-serif;
 }
 
-#heading{
+.heading{
     background: antiquewhite;
     max-width: 90%;
     margin: 0 auto;
     display: flex;
 }
 
-#h1{
+.h1{
     background: rgb(206, 231, 183);
     max-width: 90%;
     height: 100%;
@@ -20,7 +20,7 @@ font-family: 'Montserrat', sans-serif;
     justify-content: center;
     align-items: center;
 }
-#h2{
+.h2{
     background: rgb(233, 153, 193);
     max-width: 90%;
     height: 100%;
@@ -29,16 +29,7 @@ font-family: 'Montserrat', sans-serif;
     justify-content: center;
     align-items: center;
 }
-#graphic{
-    background: rgb(252, 252, 252);
-    max-width: 90%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#foto{
+.graphic{
     background: rgb(252, 252, 252);
     max-width: 90%;
     height: 100%;
@@ -47,14 +38,23 @@ font-family: 'Montserrat', sans-serif;
     /* justify-content: center;
     align-items: center; */
 }
-#foto1{
+.foto{
+    background: rgb(252, 252, 252);
+    max-width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.foto1{
     background: rgb(177, 233, 233);
     /* justify-content: center;
     align-items: center; */
 }
 
-#foto2{
-    background: rgb(240, 170, 240);
-    justify-content: center;
-    align-items: center;
+.siabadaba{
+opacity:0;
+transition:.3s;
+
 }
