@@ -63,6 +63,6 @@ body {
   opacity: 0;
   transition: 0.3s;
 }
-.foto2:hover .siabadaba {
+.foto2:hover .discription {
   opacity: 1;
 }
