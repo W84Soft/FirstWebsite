@@ -40,20 +40,19 @@ body {
 }
 .foto {
   background: rgb(252, 252, 252);
-  max-width: 90%;
+
   height: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
-    align-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow:hidden
+  
 }
-.foto1 {
-  background: rgb(177, 233, 233);
-  justify-content: center;
-    align-items: center;
-}
-
-.discription {
+.discription1 {
   background: aquamarine;
   display: flex;
   position: absolute;
@@ -63,11 +62,38 @@ body {
   bottom: 0;
   opacity: 0;
   transition: 0.3s;
+  justify-content: center;
+  align-items: center;
 }
-.foto2{
-position: relative;
+.foto1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.foto2:hover .discription {
+.foto1:hover .discription1 {
   opacity: 1;
 }
 
+.discription2 {
+  background: aquamarine;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s;
+  justify-content: center;
+  align-items: center;
+}
+.foto2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.foto2:hover .discription2 {
+  opacity: 1;
+}
