@@ -38,21 +38,8 @@ body {
   /* justify-content: center;
     align-items: center; */
 }
-.foto {
-  background: rgb(252, 252, 252);
 
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  overflow:hidden
-  
-}
-.discription1 {
+.foto .description{
   background: aquamarine;
   display: flex;
   position: absolute;
@@ -64,36 +51,19 @@ body {
   transition: 0.3s;
   justify-content: center;
   align-items: center;
-}
-.foto1 {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.foto1:hover .discription1 {
-  opacity: 1;
+  padding: 6rem;
 }
 
-.discription2 {
-  background: aquamarine;
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  transition: 0.3s;
-  justify-content: center;
-  align-items: center;
+.foto img{
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
 }
-.foto2 {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+
+.foto .cell{
+	position: relative;
 }
-.foto2:hover .discription2 {
+
+.foto .cell:hover .description {
   opacity: 1;
 }
