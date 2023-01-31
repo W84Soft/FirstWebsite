@@ -19,13 +19,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .h2 {
   background: rgb(233, 153, 193);
   max-width: 90%;
   height: 100%;
   margin: 0 auto;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }
@@ -67,3 +68,9 @@ body {
 .foto .cell:hover  {
   opacity: 1;
 }
+
+.show {
+  display: flex!important 
+  
+}
+
