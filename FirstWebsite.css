@@ -21,7 +21,7 @@ body {
   align-items: center;
 
 }
-.h2 {
+#h2 {
   background: rgb(233, 153, 193);
   max-width: 90%;
   height: 100%;
@@ -30,7 +30,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.graphic {
+#graphic {
   background: rgb(136, 214, 219);
   max-width: 90%;
   height: 30%;
@@ -38,6 +38,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 
 .foto .description{
