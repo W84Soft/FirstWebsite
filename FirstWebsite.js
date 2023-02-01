@@ -4,3 +4,7 @@ $("#about").on("click",function(){
 $("#about").on("click",function(){
     $(" #graphic").addClass("show");
 });
+
+$("#contact").on("click",function(){
+    $("#con").addClass("show");
+});
