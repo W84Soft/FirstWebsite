@@ -70,10 +70,6 @@ body {
   opacity: 1;
 }
 
-.show {
-  display: flex!important 
-  
-}
 #con{
 
   max-width: 90%;
@@ -107,3 +103,17 @@ body {
   align-items: center;
 }
 
+.work{
+  background: rgb(206, 231, 183);
+  max-width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.show {
+  display: flex!important 
+}
