@@ -1,48 +1,30 @@
+html{
+	scroll-behavior: smooth;
+}
+
 body {
   font-size: 18px;
   font-family: "IBM Plex Mono", monospace;
   font-family: "Montserrat", sans-serif;
 }
 
-.heading {
+header {
   background: antiquewhite;
-  max-width: 90%;
-  margin: 0 auto;
-  display: flex;
+  padding: 1rem 0;
 }
 
-.h1 {
+#about-me {
   background: rgb(206, 231, 183);
-  max-width: 90%;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
 }
-#h2 {
+#about {
   background: rgb(233, 153, 193);
-  max-width: 90%;
-  height: 100%;
-  margin: 0 auto;
-  display: none;
-  justify-content: center;
-  align-items: center;
 }
-#graphic {
+#graphics {
   background: rgb(136, 214, 219);
-  max-width: 90%;
-  height: 30%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: none;
 }
 
-.foto .description{
-  background: aquamarine;
+.gallery .description{
+  background: rgba(127, 255, 212,.8);
   display: flex;
   position: absolute;
   top: 0;
@@ -56,64 +38,42 @@ body {
   padding: 6rem;
 }
 
-.foto img{
+.gallery img{
 	width: 100%;
 	height: 500px;
 	object-fit: cover;
 }
 
-.foto .cell{
+.gallery .cell{
 	position: relative;
 }
 
-.foto .cell:hover  {
+.gallery .cell:hover .description{
   opacity: 1;
 }
 
-#con{
+#contact{
 
-  max-width: 90%;
-  height: 30%;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  display: none
 }
 
 .interested {
   background: rgb(233, 153, 193);
-  width: 100%;
-  height: 90%;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
 }
 .email {
   background: rgb(136, 214, 219);
-  width: 100%;
-  height: 30%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.something{
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .work{
   background: rgb(206, 231, 183);
-  max-width: 90%;
-  height: 100%;
-  margin: 0 auto;
-  display: none;
-  justify-content: center;
-  align-items: center;
-
 }
 
-.show {
-  display: flex!important 
+
+/* Wszystkie elementy które mają atrybut id są ukrywane */
+[id]{
+	display: none;
+}
+
+/* Wywołany element ma ustawić się jako blok czyli jak w linku jest #about to id="about" dostanie display:block */
+:target{
+	display: block;
 }
