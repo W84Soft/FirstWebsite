@@ -14,10 +14,10 @@ header {
 }
 
 #about-me {
-  background: rgb(206, 231, 183);
+  background: rgb(183, 231, 213);
 }
 #about {
-  background: rgb(209, 166, 188);
+  background: rgba(107, 192, 207, 0.849);
 }
 #graphics {
   background: rgb(14, 166, 177);
@@ -60,17 +60,17 @@ header {
 } */
 
 .interested {
-  background: rgb(233, 153, 193);
+  background: #6b92b3
 }
 .email {
   background: rgb(136, 214, 219);
 }
 
 .work{
-  background: rgb(206, 231, 183);
+  background: rgba(150, 245, 205, 0.568);
 }
 .touch{
-  background: rgb(92, 119, 67);
+  background: rgba(135, 202, 204, 0.589);
 }
 
 
