@@ -1,13 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+
 html{
 	scroll-behavior: smooth;
 }
 
 body {
   font-size: 18px;
-  font-family: "IBM Plex Mono", monospace;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
 }
 
+
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6{
+	font-family: "Montserrat";
+	text-transform: uppercase;
+}
+
+.h1{
+	font-size: 64px;
+}
 header {
   background: rgb(215, 240, 250);
   padding: 1rem 0;
@@ -76,7 +87,7 @@ header {
 .work{
   background: rgba(150, 245, 205, 0.568);
   font-size: 18px;
-  padding:6rem 0;
+  padding:12rem 0;
 }
 .touch{
   background: rgba(135, 202, 204, 0.589);
