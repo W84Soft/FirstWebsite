@@ -76,6 +76,7 @@ header {
 .work{
   background: rgba(150, 245, 205, 0.568);
   font-size: 18px;
+  padding:6rem 0;
 }
 .touch{
   background: rgba(135, 202, 204, 0.589);
