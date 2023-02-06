@@ -9,21 +9,25 @@ body {
 }
 
 header {
-  background: antiquewhite;
+  background: rgb(215, 240, 250);
   padding: 1rem 0;
 }
 
 #about-me {
-  background: rgb(183, 231, 213);
+  background: rgb(183, 231, 213);  
+  font-size: 18px;
 }
 #about {
   background: rgba(107, 192, 207, 0.849);
+  font-size: 18px;
 }
 #graphics {
   background: rgb(14, 166, 177);
+  font-size: 18px;
 }
 .sentence{
   background: rgb(65, 168, 175);
+  font-size: 18px;
 }
 
 .gallery .description{
@@ -44,7 +48,8 @@ header {
 .gallery img{
 	width: 100%;
 	height: 500px;
-	object-fit: cover;
+	/* object-fit: cover; */
+    font-size: 18px;
 }
 
 .gallery .cell{
@@ -60,17 +65,21 @@ header {
 } */
 
 .interested {
-  background: #6b92b3
+  background: #6b92b3;
+  font-size: 18px;
 }
 .email {
   background: rgb(136, 214, 219);
+  font-size: 18px;
 }
 
 .work{
   background: rgba(150, 245, 205, 0.568);
+  font-size: 18px;
 }
 .touch{
   background: rgba(135, 202, 204, 0.589);
+  font-size: 18px;
 }
 
 
