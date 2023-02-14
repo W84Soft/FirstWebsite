@@ -43,19 +43,19 @@ header a:hover span{
   }
 
 #about-me {
-  background: rgb(183, 231, 213);
+  background: rgba(128, 176, 238, 0.637);
 }
 #about {
-  background: rgba(107, 192, 207, 0.849);
+  background: rgba(128, 176, 238, 0.637);
 }
 #graphics {
   background: rgb(14, 166, 177);
 }
 .sentence {
-  background: rgb(65, 168, 175);
+  background: rgb(215, 240, 250);
 }
 #ourwork {
-  background: rgba(150, 245, 205, 0.568);
+  background: rgba(128, 176, 238, 0.637);
   padding: 12rem 0;
 }
 
@@ -101,13 +101,14 @@ header a:hover span{
 } */
 
 .interested {
-  background: #6b92b3;
+  background: rgba(128, 176, 238, 0.637);
 }
 .email {
-  background: rgb(136, 214, 219);
+  background: rgba(128, 176, 238, 0.637);
 }
 .touch {
-  background: rgba(135, 202, 204, 0.589);
+  background: rgb(215, 240, 250);
+
 }
 
 /* Wszystkie elementy które mają atrybut id są ukrywane */
