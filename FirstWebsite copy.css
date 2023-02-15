@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Montserrat";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Montserrat";
+  /* text-transform: uppercase; */
+  color: black;
+}
+
+.h1 {
+  font-size: 64px;
+}
+.h2 {
+  font-size: 34px;
+  color: black;
+}
+
+header {
+  background:  #222222;
+  padding: 1rem 0;
+  font-size: 24px;
+}
+header a{
+	color: #fff;
+	text-transform: uppercase;
+	background: -webkit-linear-gradient(-45deg, #3E96B9 0%, #65CF96 100%);
+	-webkit-background-clip: text;
+	-webkit-transition: .3s;
+}
+header a:hover{
+	color:transparent;
+}
+
+#about-me {
+  background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%);
+}
+#about {
+  background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%);
+}
+.graphics {
+  background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%);
+  font-size: 16px;
+  color: black;
+}
+.sentence {
+background: rgb(228, 228, 228);
+}
+#ourwork {
+  background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%);
+  padding: 12rem 0;
+}
+
+.gallery .description {
+  background: rgba(127, 255, 212, 0.8);
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.5);
+  transition: 1.5s;
+}
+
+.gallery .cell:hover img {
+  filter: saturate(0.5) blur(4px);
+  transform: scale(1.2);
+}
+
+.gallery .cell {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery .cell:hover .description {
+  opacity: 1;
+}
+
+/* #contact{
+
+} */
+
+.interested {
+  background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%);
+}
+.email {
+  background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%);
+}
+.touch {
+  background: rgb(228, 228, 228);
+}
+.frame{
+  background:rgba(255, 255, 255, 1)
+}
+
+/* Wszystkie elementy które mają atrybut id są ukrywane */
+/* [id] {
+  display: none;
+} */
+
+/* Wywołany element ma ustawić się jako blok czyli jak w linku jest #about to id="about" dostanie display:block */
+/* :target {
+  display: block;
+} */
+
+.logo{
+	color:#fff;
+	font-size: 32px;
+	text-transform: none;
+}
+
+.logo span{
+	color:transparent;
+  	background: -webkit-linear-gradient(-45deg, #3E96B9 0%, #65CF96 100%);
+  	-webkit-background-clip: text;
+}
