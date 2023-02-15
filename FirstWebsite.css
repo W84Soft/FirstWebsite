@@ -50,13 +50,13 @@ header a span{
 	/* background: -webkit-linear-gradient(45deg, red, blue);
 	-webkit-background-clip: text; */
   }
-
+/* 
 #about-me {
   background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%);
-}
-#about {
+} */
+/* #about {
   background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%);
-}
+} */
 .graphics {
   background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%);
   font-size: 16px;
@@ -66,7 +66,7 @@ header a span{
 background: rgb(228, 228, 228);
 }
 #ourwork {
-  background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%);
+  /* background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%); */
   padding: 12rem 0;
 }
 
@@ -111,12 +111,12 @@ background: rgb(228, 228, 228);
 
 } */
 
-.interested {
+/* .interested {
   background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%);
-}
-.email {
+} */
+/* .email {
   background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%);
-}
+} */
 .touch {
   background: rgb(228, 228, 228);
 }
