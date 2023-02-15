@@ -23,30 +23,33 @@ h6,
 .h6 {
   font-family: "Montserrat";
   text-transform: uppercase;
+  color: black;
 }
 
 .h1 {
   font-size: 64px;
+  color: black;
 }
 .h7 {
   font-size: 24px;
+  color: black;
 }
 header {
-  background: rgb(215, 240, 250);
+  background:  #222222;
   padding: 1rem 0;
   font-size: 24px;
 }
-header a:hover span{
-	color:transparent;
+header a span{
+	color: rgba(255, 255, 255, 1);
 	background: -webkit-linear-gradient(45deg, red, blue);
 	-webkit-background-clip: text;
   }
 
 #about-me {
-  background: rgba(128, 176, 238, 0.637);
+  background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%);
 }
 #about {
-  background: rgba(128, 176, 238, 0.637);
+  background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%);
 }
 #graphics {
   background: rgb(14, 166, 177);
@@ -55,7 +58,7 @@ header a:hover span{
   background: rgb(215, 240, 250);
 }
 #ourwork {
-  background: rgba(128, 176, 238, 0.637);
+  background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%);
   padding: 12rem 0;
 }
 
@@ -101,14 +104,16 @@ header a:hover span{
 } */
 
 .interested {
-  background: rgba(128, 176, 238, 0.637);
+  background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%);
 }
 .email {
   background: rgba(128, 176, 238, 0.637);
 }
 .touch {
-  background: rgb(215, 240, 250);
-
+  background: rgb(228, 228, 228);
+}
+.frame{
+  background:rgba(255, 255, 255, 1)
 }
 
 /* Wszystkie elementy które mają atrybut id są ukrywane */
@@ -120,20 +125,4 @@ header a:hover span{
 :target {
   display: block;
 }
-/* #contact{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 10px;
-gap: 10px;
-isolation: isolate;
 
-position: absolute;
-width: 1280px;
-height: 460px;
-left: 0px;
-top: 64px;
-
-background: linear-gradient(96.03deg, #5FC69C 0%, #D7F0FA 100%);
-} */
