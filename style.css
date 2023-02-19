@@ -138,8 +138,16 @@ header a:hover {
   padding-top: 4rem;
 }
 
-.steps i {
-  width: 56px;
-  height: 64px;
-  columns: #48937f;
+.uppercase{
+	text-transform: uppercase;
+}
+
+.steps i{
+	font-size: 64px;
+	margin-bottom: 1.5rem;
+  	color: #48937f;
+}
+
+.steps p{
+	margin-top: 1.5rem;
 }
