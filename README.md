@@ -1,3 +1,2 @@
-# FirstWebsite
-
-http://htmlpreview.github.io/?https://github.com/RadoRadoslaw/FirstWebsite/blob/main/FirstWebsite.html
+# FirstWebsi
+https://github.com/RadoRadoslaw/FirstWebsite-PL.git
